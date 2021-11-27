@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }                 
+  #anim_logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    margin-left: 400px;
+  }
+  #ide{
+      color: blanchedalmond;
+      margin-left: 200px; 
+  }
+  #titre{
+      color: blanchedalmond;
+      text-align: center;
+  }
+  h2{
+      color: blanchedalmond;
+  }
+  h1{
+    color: blanchedalmond;
+    text-align: center;
+  }
+  .affiche-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 100px;
+  }
